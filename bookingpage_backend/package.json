@@ -1,0 +1,26 @@
+{
+  "name": "bookingpage_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "yadhu",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "16.4.5",
+    "express": "4.19.2",
+    "mongoose": "8.4.3",
+    "razorpay": "^2.9.4",
+    "twilio": "^5.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.4"
+  }
+}

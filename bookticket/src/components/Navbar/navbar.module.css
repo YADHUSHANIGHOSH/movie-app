@@ -1,0 +1,95 @@
+.nav{
+    background-color: rgb(231, 77, 115);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.left{
+    display: flex;
+    align-items: center;
+
+}
+
+.searchBox { 
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin-left: 30px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .searchBox:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .searchBtn {
+    font-size: 20px;
+    color: #999;
+    margin-right: 10px;
+  }
+  
+  .searchInput {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .searchInput::placeholder {
+    color: #aaa;
+  }
+  
+/* .nav {
+    height: 50px;
+    margin-right: 10px;
+} */
+
+
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.signin_button{
+    color: black;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.linlstylenone{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+.theme_icon1{
+    display: flex;
+    align-items: centre;
+}
+.signup_button{
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+}
+.dropicon{
+    font-size: 20px;
+}

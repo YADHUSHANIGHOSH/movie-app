@@ -1,0 +1,30 @@
+.movietype{
+    display: flex;
+    font-size: 25px;
+    padding:10px;;
+    text-transform: uppercase;
+    gap: 30px;
+    
+}
+.type{
+    color: black;
+    text-decoration: none;
+}
+.type:hover{
+    color: red;
+}
+
+.movie__list {
+    padding: 0 3rem 3rem 3rem;
+}
+
+.list__title {
+font-size: 1.75rem;
+margin:  2.5rem;
+}
+
+.list__cards {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
